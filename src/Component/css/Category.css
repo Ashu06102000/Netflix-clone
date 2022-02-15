@@ -1,0 +1,40 @@
+.category{
+    margin-left: 20px;
+    
+    color: white;
+}
+
+.categories{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.categories::-webkit-scrollbar{
+    display: none;
+}
+.posterCategory{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+
+}
+.posterCategory:hover{
+    transform: scale(1.08);
+}
+
+.posterCategoryLarge{
+  
+    max-height: 250px;
+}
+.posterCategoryLarge:hover{
+    transform: scale(1.09);
+}
+@media(max-width:500px){
+    .category{
+        font-size: 0.8em;
+    }
+  
+}

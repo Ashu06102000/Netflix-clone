@@ -1,0 +1,13 @@
+body{
+  scroll-behavior: smooth;
+  background-color: black;
+}
+.App {
+  text-align: center;
+}
+body {
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
